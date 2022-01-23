@@ -2,6 +2,36 @@
 
 A collection of talks and conferences about Haskell
 
+## Effects
+
+### A Series of Unfortunate Effects – Robert M. Avram
+
+[Video](https://www.youtube.com/watch?v=y5jZnMImbMY)
+
+Involved libraries: N/A
+
+The very essence of functional programming relies on a fairly simple premise:
+write side-effectless programs, so that you can reason about them equationally.
+Side-effects however are predominant in every program that... well, does
+something useful. In light of this, the modelling of effects in functional
+programs has become a fairly active domain of study. From stacked effects,
+to horizontal ones; from transformers to free monads and so on. Every
+effect model, though joyfully they may seem, have some rather unfortunate
+consequences. 
+
+In this talk, I'd like to share with you some of these effect
+models and exemplify both their joyful and unfortunate nature.
+
+### Effects for Less – Alexis King
+
+[Video](https://www.youtube.com/watch?v=0jI-AlWEwYI)
+
+Involved libraries:
+
+- [`eff`](https://github.com/hasura/eff)
+
+(No video description available)
+
 ## Lazy Evaluation
 
 ### Thunks, Sharing, Laziness: The Haskell Heap Visualized – Joachim Breitner
