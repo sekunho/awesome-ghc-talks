@@ -2,6 +2,23 @@
 
 A collection of talks and conferences about Haskell
 
+## Optics
+
+### Lenses: Compositional Data Access and Manipulation – Simon Peyton Jones
+
+[Video](https://www.youtube.com/watch?v=k-QwBL9Dia0)
+
+
+Involved libraries:
+
+- [`lens`](https://hackage.haskell.org/packages/search?terms=lens)
+
+Haskell lets you write beautiful, modular code. Rather than waffle generally, I’ll use this talk to look at a particular example, Edward Kmett’s lovely lens  library. Lenses have been called “jQuery for data types”: they give you a way to poke around in the guts of some large aggregate structure. Lenses compose (so you can make big lenses by gluing together little ones), and they exploit type classes to allow a remarkable degree of flexibility (get, set, fold, traverse, etc).
+
+One of Haskell’s most egregious shortcomings is that you can’t use the same field name in different record types. I’ll explain how we are planning to fix that (joint work with Adam Gundry), and how the result will fit nicely into the lens world.
+
+This talk was recorded on 9 October 2013 at Haskell eXchange in London
+
 ## Effects
 
 ### A Series of Unfortunate Effects – Robert M. Avram
